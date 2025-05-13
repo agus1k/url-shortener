@@ -4,11 +4,11 @@ Este es un servicio RESTful para acortar URLs, redirigir a las URLs originales y
 
 ## Endpoints 
 
-### Acortar una URL ✂
+### Acortar una URL 
 
 **POST** `/shorten`
 
-**Descripción:** Envía una URL en el cuerpo de la solicitud para generar un enlace corto. 🔗📩
+**Descripción:** Envía una URL en el cuerpo de la solicitud para generar un enlace corto. 
 
 **Ejemplo de solicitud:**
 
@@ -129,7 +129,7 @@ DELETE /shorten/abc123
    git clone https://github.com/agus1k/url-shortener.git
    cd url-shortener
    ```
-2️Configura la base de datos en `application.properties` 
+2️ Configura la base de datos en `application.properties` 
 3 Ejecuta la aplicación con Maven o Gradle 
    ```bash
    mvn spring-boot:run
